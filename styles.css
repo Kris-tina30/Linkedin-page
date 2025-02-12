@@ -56,6 +56,7 @@ header li {
   display: flex;
   border-bottom: 1px solid rgb(157, 152, 152);
   margin-bottom: 25px;
+  padding-bottom: 35px;
 }
 .today-page-info {
   display: flex;
@@ -74,7 +75,7 @@ header li {
   padding: 5px 0 5px 10px;
 }
 .form-wrap {
-  width: 50%;
+  width: 55%;
 }
 .form-wrap fieldset {
   display: flex;
@@ -93,6 +94,9 @@ header li {
 .input-wrap {
   margin-bottom: 25px;
 }
+.form-wrap label {
+  font-weight: bold;
+}
 .form-wrap button {
   background-color: #9acd32;
   color: #fff;
@@ -103,12 +107,12 @@ header li {
   margin-right: 132px;
 }
 .form-wrap p {
-  margin: auto;
+  margin: auto auto auto 105px;
   font-size: 14px;
+  font-weight: bold;
 }
 .search-section label {
   font-weight: bold;
-
   font-size: 22px;
 }
 .search-section input {
